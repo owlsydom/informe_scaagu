@@ -1,6 +1,12 @@
 import React from "react";
-import MarkdownPage from "../components/MarkdownPage";
+import ReactMarkdown from "react-markdown";
+import resumen from "../docs/01_resumen_scaagu.md";
 
 export default function Resumen() {
-  return <MarkdownPage file="/docs_scaagu/01_resumen_scaagu.md" />;
+  return (
+    <div className="markdown-container">
+      <ReactMarkdown>{resumen}</ReactMarkdown>
+    </div>
+  );
 }
+
