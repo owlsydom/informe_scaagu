@@ -23,6 +23,9 @@ const sections = [
 export default function Informe() {
   return (
     <div className="informe-page">
+      <header className="page-header">
+        <h1 className="page-title">Hackeo empresa IFX Networks</h1>
+      </header>
       {sections.map((section) => (
         <section key={section.id} id={section.id} className="markdown-section">
           <h2>{section.title}</h2>
