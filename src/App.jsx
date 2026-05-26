@@ -1,18 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Resumen from "./components/Resumen";
+import Informe from "./components/Informe";
 
 function App() {
-  return (
-    <Router>
-      <nav>
-        <Link to="/">Resumen</Link>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Resumen />} />
-      </Routes>
-    </Router>
-  );
+  return <Informe />;
 }
 
 export default App;
