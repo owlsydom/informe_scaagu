@@ -86,8 +86,13 @@ nav a:hover {
   color: rgba(79, 116, 209, 0.2);
 }
 
-h1, h2, h3 {
-  color: #1b317d;
+h1, h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+h3 {
+  color: #e7eef9;
   text-align: center;
 }
 
@@ -95,6 +100,10 @@ h2 {
   font-size: 1.85rem;
   margin-top: 0;
   margin-bottom: 24px;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, rgba(59, 96, 183, 0.92), rgba(95, 141, 222, 0.92));
+  border-radius: 18px;
+  box-shadow: 0 12px 24px rgba(29, 60, 141, 0.18);
 }
 
 p {
