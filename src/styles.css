@@ -1,75 +1,76 @@
 body {
   margin: 0;
   font-family: 'Inter', 'Segoe UI', sans-serif;
-  background: radial-gradient(circle at top left, rgba(131, 187, 255, 0.22), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(255, 214, 138, 0.22), transparent 25%),
-    linear-gradient(180deg, #f5f9ff 0%, #e8eff9 45%, #fdfcff 100%);
-  color: #172033;
+  background: radial-gradient(circle at top left, rgba(36, 53, 99, 0.22), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(171, 106, 255, 0.15), transparent 20%),
+    linear-gradient(180deg, #101a33 0%, #17294e 45%, #1e3760 100%);
+  color: #e7eef9;
 }
 
 body::before {
   content: '';
   position: fixed;
   inset: 0;
-  background-image: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.45) 0%, transparent 30%),
-    radial-gradient(circle at 80% 15%, rgba(145, 205, 255, 0.25) 0%, transparent 22%),
-    radial-gradient(circle at 50% 85%, rgba(244, 227, 255, 0.18) 0%, transparent 18%);
+  background-image: radial-gradient(circle at 18% 22%, rgba(51, 116, 234, 0.28), transparent 20%),
+    radial-gradient(circle at 80% 15%, rgba(135, 82, 199, 0.18), transparent 18%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.02), transparent 35%);
   pointer-events: none;
 }
 
 nav {
-  background-color: #4f7dc1;
+  background-color: rgba(18, 40, 76, 0.95);
   padding: 18px;
   text-align: center;
-  box-shadow: 0 12px 30px rgba(31, 42, 58, 0.12);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
 }
 
 nav a {
-  margin: 0 12px;
+  margin: 0 14px;
   text-decoration: none;
-  color: #f8fbff;
+  color: #f3f7ff;
   font-weight: 700;
-  letter-spacing: 0.02em;
-  transition: color 0.3s ease, transform 0.3s ease;
+  letter-spacing: 0.04em;
+  transition: color 0.25s ease, transform 0.25s ease;
 }
 
 nav a:hover {
-  color: #ffe28a;
+  color: #ffd369;
   transform: translateY(-1px);
 }
 
 .page-header {
-  max-width: 900px;
+  max-width: 920px;
   margin: 36px auto 20px;
-  padding: 32px 28px;
-  background: linear-gradient(135deg, #f8fbff 0%, #eaf2ff 100%);
-  border-left: 8px solid #5f8dd4;
-  border-radius: 24px;
-  box-shadow: 0 18px 40px rgba(31, 42, 58, 0.08);
+  padding: 36px 30px;
+  background: rgba(12, 26, 60, 0.95);
+  border-left: 8px solid #6b8cff;
+  border-radius: 28px;
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(8px);
 }
 
 .page-title {
   margin: 0;
-  font-size: clamp(2.4rem, 4vw, 3.4rem);
-  letter-spacing: 0.04em;
-  color: #17335b;
-  text-shadow: 0 6px 18px rgba(96, 127, 183, 0.14);
+  font-size: clamp(2.4rem, 4vw, 3.6rem);
+  letter-spacing: 0.05em;
+  color: #f4f9ff;
+  text-shadow: 0 12px 30px rgba(60, 100, 175, 0.32);
 }
 
 .page-header p {
   margin-top: 14px;
   font-size: 1.05rem;
-  color: #4a5f86;
+  color: #b9c6e8;
 }
 
 .markdown-container {
-  max-width: 850px;
+  max-width: 860px;
   margin: 36px auto;
-  background: #ffffff;
-  padding: 36px 38px;
+  background: rgba(255, 255, 255, 0.96);
+  padding: 38px 40px;
   border-radius: 26px;
-  border: 1px solid rgba(95, 122, 173, 0.14);
-  box-shadow: 0 18px 40px rgba(31, 42, 58, 0.08);
+  border: 1px solid rgba(111, 148, 232, 0.18);
+  box-shadow: 0 24px 60px rgba(7, 13, 34, 0.18);
 }
 
 .markdown-section {
@@ -80,42 +81,85 @@ nav a:hover {
   content: '•';
   position: absolute;
   top: -10px;
-  left: 20px;
+  left: 22px;
   font-size: 3rem;
-  color: rgba(95, 122, 173, 0.16);
+  color: rgba(79, 116, 209, 0.2);
 }
 
 h1, h2, h3 {
-  color: #315a90;
+  color: #1b317d;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.85rem;
   margin-top: 0;
   margin-bottom: 24px;
 }
 
 p {
-  line-height: 1.75;
-  color: #2b3c57;
+  line-height: 1.8;
+  color: #24335a;
 }
 
 a {
-  color: #547fc7;
+  color: #3c6cd3;
   text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 0.98rem;
+}
+
+thead {
+  background: linear-gradient(135deg, #4154a8 0%, #2d3f81 100%);
+  color: #edf4ff;
+}
+
+th,
+td {
+  border: 1px solid rgba(70, 101, 185, 0.22);
+  padding: 14px 16px;
+  vertical-align: top;
+}
+
+th {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody tr:nth-child(even) {
+  background: rgba(95, 133, 219, 0.08);
+}
+
+tbody tr:hover {
+  background: rgba(67, 95, 189, 0.1);
+}
+
+td {
+  color: #2a3d70;
+}
+
+table caption {
+  caption-side: bottom;
+  padding-top: 10px;
+  color: #5b6d9f;
 }
 
 button,
 button[type='button'] {
-  background: #5e8dd9;
+  background: #4065d3;
   color: white;
   border: none;
   border-radius: 999px;
   padding: 10px 18px;
   font-weight: 700;
   cursor: pointer;
-  box-shadow: 0 12px 24px rgba(94, 141, 217, 0.18);
+  box-shadow: 0 14px 28px rgba(24, 56, 122, 0.24);
 }
 
 button:hover {
