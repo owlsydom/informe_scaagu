@@ -1,4 +1,5 @@
 **GDPR (UE)**
+
 *Ámbito*: Unión Europea, protección de datos personales
 
 *Objetivo principal*: Privacidad y derechos ARCO
@@ -16,6 +17,7 @@
 *Impacto en el caso*: Muestra necesidad de gobernanza global
 
 **HIPAA (EE.UU.)**
+
 *Ámbito*: Salud y datos médicos en EE.UU.
 
 *Objetivo principal*: Confidencialidad y seguridad de datos médicos
@@ -33,6 +35,7 @@
 *Impacto en el caso*: Riesgo por datos sensibles de usuarios
 
 **Ley 19.628 (Chile)**
+
 *Ámbito*: Datos personales y sensibles en Chile
 
 *Objetivo principal*: Protección de datos personales y sensibles
@@ -50,6 +53,7 @@
 *Impacto en el caso*: Obligaciones específicas para instituciones públicas chilenas
 
 **Ley 1273 (Colombia)**
+
 *Ámbito*: Delitos informáticos en Colombia
 
 *Objetivo principal*: Prevención y sanción de ciberdelitos
